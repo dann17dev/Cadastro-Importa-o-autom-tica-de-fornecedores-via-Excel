@@ -23,7 +23,7 @@ A solução pode ser executada via rotina customizada (ADVPL) ou pelo `StartJob`
 
 ### 🧾 Trecho do código ADVPL (resumo)
 ```advpl
-User Function ImportaSA2()
+User Function ImporSA2()
     Local aDados := ReadCSV("C:\dados\fornecedores.csv")
     Local i := 0
 
